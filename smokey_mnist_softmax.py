@@ -35,7 +35,7 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string('data_dir', '/tmp/data/', 'Directory for storing data')
 
 def load_file():
-  return json.loads(open("/Users/parkererway/Desktop/ms_data.json").read())
+  return json.loads(open("ms_data.json").read())
 
 def matrix_for_datapoint(dp):
   # Embedding matrix format:
